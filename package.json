@@ -1,0 +1,26 @@
+{
+  "name": "glsl-basic-material",
+  "version": "1.0.0",
+  "description": "basic GLSL struct for a material",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman-lab/glsl-basic-material.git"
+  },
+  "keywords": [
+    "glsl",
+    "glslify",
+    "webgl",
+    "shader",
+    "material"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeman-lab/glsl-basic-material/issues"
+  },
+  "homepage": "https://github.com/freeman-lab/glsl-basic-material#readme"
+}
