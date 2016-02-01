@@ -67,6 +67,6 @@ You can use these in your shader code however you want, but typically:
 - `emissive` controls the color of the material independent of lighting
 - `ambient` controls the color of the material scaled by the amount ambient light
 - `diffuse` controls the color of the material scaled by the diffuse light component
-- `specular` controls the color of the material scaled by the diffuse light component
+- `specular` controls the color of the material scaled by the specular light component
 - `shininess` controls the shine parameter of the specular component
 - `roughness` controls the roughness parameter of the diffuse component
