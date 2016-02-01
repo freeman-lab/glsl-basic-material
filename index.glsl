@@ -1,4 +1,4 @@
-struct Material {
+struct BasicMaterial {
 	vec3 emissive;
 	vec3 ambient;
 	vec3 diffuse;
@@ -7,4 +7,4 @@ struct Material {
 	float roughness;
 };
 
-#pragma glslify: export(Material)
+#pragma glslify: export(BasicMaterial)
