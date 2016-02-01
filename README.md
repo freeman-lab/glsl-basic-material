@@ -15,8 +15,8 @@ npm install glsl-basic-material --save
 Define 2 materials to use in your shader
 
 ```javascript
-pragma glslify: Material = require('glsl-basic-material')
-uniform Material materials[2];
+pragma glslify: BasicMaterial = require('glsl-basic-material')
+uniform BasicMaterial materials[2];
 ```
 
 Then set their properties on a `shader` created using `gl-shader`
@@ -47,7 +47,7 @@ shader.uniforms.materials = [
 Inside your shader just declare the struct type with
 
 ```javascript
-pragma glslify: Material = require('glsl-basic-material')
+pragma glslify: BasicMaterial = require('glsl-basic-material')
 ```
 
 and use as you like, e.g. to set a `uniform` or construct a variable.
